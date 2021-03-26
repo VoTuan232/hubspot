@@ -1,0 +1,12 @@
+defaultPortal: votuan
+portals:
+  - name: votuan
+    portalId: 19587306
+    authType: personalaccesskey
+    auth:
+      tokenInfo:
+        accessToken: >-
+          CMCQ-vSGLxIIAAkADAAA4AEY6sGrCSDplq8LKO7pDDIZAGuKlfFOnReyo5oTNNJpPMtdoPzh2L1VhzooAAAAQQAAAHgAAAAAAAAAAIABAAAAAAAAwADAB2D-_zEAAAAAAAAAYEIZAGuKlfHCdpIIkbWTXqxi4LFe1eQV4nBW00oDbmEx
+        expiresAt: '2021-03-26T12:59:46.629Z'
+    personalAccessKey: >-
+      CiRiMWVmNzVhNi1lY2FhLTQwOWEtODViMi03Yzk3YzA5MjQxNjQQ6sGrCRjplq8LKhkABeaRgtqCbHI8JU_3r84qE8qejCeJCnPF
