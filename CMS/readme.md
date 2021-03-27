@@ -3,6 +3,9 @@
 + https://app.hubspot.com/academy
 + https://app.hubspot.com/design-manager/
 + https://app.hubspot.com/personal-access-key
++ https://developers.hubspot.com/docs/cms/hubl
+    - Hubl not program language , it is markup language
+    - It's not client side 
 
 ### Reference: 
 + https://marketingai.admicro.vn/hubspot-la-gi/
