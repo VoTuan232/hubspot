@@ -1,0 +1,30 @@
+<!--
+    templateType: page
+    label: Page template
+    isAvailableForNewContent: true
+-->
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ content.html_title }}</title>
+    <meta name="description" content="{{ content.meta_description }}">
+    {{ standard_header_includes }}
+  </head>
+  <body>
+    <h1>This headline is static: VAT</h1>
+
+    {% module_block module "main_content" path="@hubspot/rich_text",
+      label="Main Content" 
+    %}
+        {% module_attribute "rich_text_field_variable" %}
+        <h2>This headline is not static</h2>
+        <h2>This paragram isn't static either!</h2>
+        {% end_module_attribute %}
+    {% end_module_block %}
+
+    {% module "page_template_logo" path="@hubspot/logo" label="Logo" %}
+    {% module "page_template_rich_text" path="@hubspot/rich_text" label="Rich Text" %}
+    {{ standard_footer_includes }}
+  </body>
+</html>

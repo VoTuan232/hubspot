@@ -6,6 +6,7 @@
 + https://developers.hubspot.com/docs/cms/hubl
     - Hubl not program language , it is markup language
     - It's not client side 
++ https://www.answerout.com/hubspot-cms-for-developers-quiz-answers-2021/
 
 ### Reference: 
 + https://marketingai.admicro.vn/hubspot-la-gi/
@@ -18,7 +19,6 @@
 + npx hs init
 => auto open url: https://app.hubspot.com/portal-recommend/l?slug=personal-access-key
 + api-key: CiRiMWVmNzVhNi1lY2FhLTQwOWEtODViMi03Yzk3YzA5MjQxNjQQ6sGrCRjplq8LKhkABeaRgtqCbHI8JU_3r84qE8qejCeJCnPF
-+ hs create website-theme my-website-theme
 
 ### Create, Push , Upload 
 + npx @hubspot/create-cms-project my-website-theme
